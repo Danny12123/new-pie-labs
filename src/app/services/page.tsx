@@ -18,7 +18,7 @@ const Service4Page = () => {
                 <BreadCrumb title="Our Services" breadCrumb="services-2" />
                 <ServiceV6 sectionClass="default-padding-top" />
                 <ProcessV2 />
-                <PriceV2 hasTitle={true} />
+                {/* <PriceV2 hasTitle={true} /> */}
                 <PartnerV1 sectionClass="default-padding-bottom bg-gray" />
                 <CtaV1 />
                 <TeamV3 hasTitle={true} />

@@ -54,9 +54,9 @@ const FooterV1 = () => {
                                         <li>
                                             <Link href="/about-us">Career</Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/pricing">Plans & Pricing</Link>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <Link href="/contact-us">Contact</Link>
                                         </li>
@@ -70,9 +70,9 @@ const FooterV1 = () => {
                                         <li>
                                             <Link href="/services-details/1">IT Management</Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/services-details/2">Cyber Security</Link>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <Link href="/services-details/3">Cloud Computing</Link>
                                         </li>
