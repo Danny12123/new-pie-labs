@@ -19,7 +19,7 @@ const SingleProjectV1 = ({ project }: { project: DataType }) => {
                 <div className="row align-bottom">
                     <div className="col-lg-7 pr-0 pr-md-15 pr-xs-15 pl-md-15 pl-xs-15">
                         <div className="thumb">
-                            <Image src={`/assets/img/projects/${thumb}`} alt="Image Not Found" width={1000} height={667} />
+                            <Image src={thumb} alt="Image Not Found" width={1000} height={667} />
                         </div>
                     </div>
                     <div className="col-lg-5 pl-0 pl-md-15 pl-xs-15 pr-md-15 pr-xs-15">

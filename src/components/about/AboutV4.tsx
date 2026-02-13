@@ -26,7 +26,7 @@ const AboutV4 = () => {
                     <div className="row">
                         <div className="col-lg-7">
                             <div className="about-style-four-thumb">
-                                <Image src="/assets/img/about/9.jpg" alt="Image Not Found" width={740} height={520} />
+                                <Image src="/assets/img/about/3.jpg" alt="Image Not Found" width={740} height={520} />
                             </div>
                         </div>
                         <div className="col-lg-5">

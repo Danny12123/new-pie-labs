@@ -9,10 +9,10 @@ const HeaderTopV1 = () => {
                         <div className="col-xl-6 col-lg-8 offset-xl-3 pl-30 pl-md-15 pl-xs-15">
                             <ul className="item-flex">
                                 <li>
-                                    <i className="fas fa-map-marker-alt" /> 70240 Avenue of the Moon, California
+                                    <i className="fas fa-map-marker-alt" /> PR2H+9FQ Adenta Municipality, Accra  Ghana
                                 </li>
                                 <li>
-                                    <a href="tel:+4733378901"><i className="fas fa-phone-alt" /> +4733378901</a>
+                                    <a href="tel:+4733378901"><i className="fas fa-phone-alt" /> +233 54 254 4944</a>
                                 </li>
                             </ul>
                         </div>

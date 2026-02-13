@@ -17,7 +17,7 @@ const AboutV1 = () => {
                     <div className="row align-center">
                         <div className="about-style-one col-xl-5 col-lg-6">
                             <div className="about-thumb">
-                                <Image data-aos="fade-right" src="/assets/img/about/1.jpg" alt="Image Not Found" width={783} height={900} />
+                                <Image data-aos="fade-right" src="/assets/img/about/5.jpg" alt="Image Not Found" width={783} height={900} />
                                 <div className="about-card" data-aos="fade-up" data-aos-delay="500">
                                     <ul>
                                         {AboutFactV1Data.map(fact =>

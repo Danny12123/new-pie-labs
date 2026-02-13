@@ -2,29 +2,29 @@ import BreadCrumb from "@/components/breadCrumb/BreadCrumb";
 import CtaV1 from "@/components/cta/CtaV1";
 import LayoutV1 from "@/components/layouts/LayoutV1";
 import PartnerV1 from "@/components/partner/PartnerV1";
-import PriceV1 from "@/components/price/PriceV1";
-import ProcessV1 from "@/components/process/ProcessV1";
-import ServiceV1 from "@/components/services/ServiceV1";
-import TeamV1 from "@/components/team/TeamV1";
+import PriceV2 from "@/components/price/PriceV2";
+import ProcessV2 from "@/components/process/ProcessV2";
+import ServiceV6 from "@/components/services/ServiceV6";
+import TeamV3 from "@/components/team/TeamV3";
 
 export const metadata = {
-    title: "Tekni - Services"
+    title: "Tekni - Services 4"
 };
 
-const ServicesPage = () => {
+const Service4Page = () => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title="Our Services" breadCrumb="services" />
-                <ServiceV1 />
-                <ProcessV1 />
-                <PartnerV1 sectionClass="default-padding" hasBg={true} />
-                <TeamV1 hasTitle={true} />
+                <BreadCrumb title="Our Services" breadCrumb="services-2" />
+                <ServiceV6 sectionClass="default-padding-top" />
+                <ProcessV2 />
+                <PriceV2 hasTitle={true} />
+                <PartnerV1 sectionClass="default-padding-bottom bg-gray" />
                 <CtaV1 />
-                <PriceV1 hasTitle={true} hasBg={true} />
+                <TeamV3 hasTitle={true} />
             </LayoutV1>
         </>
     );
 };
 
-export default ServicesPage;
+export default Service4Page;

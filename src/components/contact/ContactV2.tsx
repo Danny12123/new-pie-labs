@@ -23,7 +23,7 @@ const ContactV2 = () => {
                                         </div>
                                         <div className="content">
                                             <h5 className="title">Hotline</h5>
-                                            <a href="tel:+4733378901">+4733378901</a>
+                                            <a href="tel:+233594101215">+233 594 101 215</a>
                                         </div>
                                     </li>
                                     <li data-aos="fade-up" data-aos-delay="300">
@@ -33,7 +33,7 @@ const ContactV2 = () => {
                                         <div className="info">
                                             <h5 className="title">Our Location</h5>
                                             <p>
-                                                55 Main Street, The Grand Avenue 2nd Block, <br /> New York City
+                                               PR2H+9FQ Adenta Municipality, Accra <br /> Ghana
                                             </p>
                                         </div>
                                     </li>
@@ -43,7 +43,7 @@ const ContactV2 = () => {
                                         </div>
                                         <div className="info">
                                             <h5 className="title">Official Email</h5>
-                                            <a href="mailto:info@agrul.com.com">info@agrul.com</a>
+                                            <a href="mailto:info@agrul.com.com">info@pielabs.tech</a>
                                         </div>
                                     </li>
                                 </ul>

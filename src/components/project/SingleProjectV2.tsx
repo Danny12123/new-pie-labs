@@ -16,7 +16,7 @@ const SingleProjectV2 = ({ project }: { project: DataType }) => {
         <>
             <div className="gallery-item wow fadeInUp" data-aos-delay="100">
                 <div className="gallery-style-one">
-                    <Image src={`/assets/img/gallery/${thumb}`} alt="Thumb" width={800} height={900} />
+                    <Image src={thumb} alt="Thumb" width={800} height={900} />
                     <div className="shape">
                         <Image src="/assets/img/shape/35.png" alt="Image Not Found" width={890} height={865} />
                     </div>

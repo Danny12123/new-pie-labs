@@ -25,7 +25,7 @@ const HeaderV1 = () => {
                                         <i className="fa fa-bars" />
                                     </button>
                                     <Link className="navbar-brand" href="/">
-                                        <Image src="/assets/img/logo.png" className="logo" alt="Logo" width={545} height={185} />
+                                        <Image src="/assets/img/logo/logo.png" className="logo" alt="Logo" width={545} height={185} />
                                     </Link>
                                 </div>
                             </div>

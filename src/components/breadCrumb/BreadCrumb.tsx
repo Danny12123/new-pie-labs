@@ -8,7 +8,7 @@ interface DataType {
 const BreadCrumb = ({ title, breadCrumb }: DataType) => {
     return (
         <>
-            <div className="breadcrumb-area bg-cover shadow theme-hard text-center text-light" style={{ backgroundImage: 'url(/assets/img/banner/8.jpg)' }}>
+            <div className="breadcrumb-area bg-cover shadow theme-hard text-center text-light" style={{ backgroundImage: 'url(/assets/img/banner/our-services.jpg)' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2">

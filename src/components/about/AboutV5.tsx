@@ -23,7 +23,7 @@ const AboutV5 = () => {
                                         </Link>
                                     </h4>
                                 </div>
-                                <Image src="/assets/img/about/3.png" alt="Image Not Found" width={615} height={355} />
+                                <Image src="/assets/img/about/3.jpg" alt="Image Not Found" width={615} height={355} />
                             </div>
                         </div>
                         <div className="col-lg-6">

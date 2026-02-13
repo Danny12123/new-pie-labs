@@ -16,7 +16,7 @@ const SingleProjectV4 = ({ project }: { project: DataType }) => {
         <>
             <div className="project-style-two">
                 <div className="thumb">
-                    <Image src={`/assets/img/gallery/${thumb}`} alt="Image Not Found" width={600} height={675} />
+                    <Image src={thumb} alt="Image Not Found" width={600} height={675} />
                 </div>
                 <div className="content">
                     <span>{category}</span>

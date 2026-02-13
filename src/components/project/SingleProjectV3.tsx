@@ -19,7 +19,7 @@ const SingleProjectV3 = ({ project }: { project: DataType }) => {
             <div className="project-style-three-item">
                 <div className="row">
                     <div className="col-xl-8 col-lg-6">
-                        <Image src={`/assets/img/projects/${thumb}`} alt={title} width={1000} height={590} />
+                        <Image src={thumb} alt={title} width={1000} height={590} />
                     </div>
                     <div className="col-xl-4 col-lg-6">
                         <div className="project-style-three-info">

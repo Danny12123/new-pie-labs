@@ -15,7 +15,7 @@ const AboutV2 = () => {
                     <div className="row align-center">
                         <div className="col-lg-6">
                             <div className="about-style-two-thumb">
-                                <Image data-aos="fade-up" src="/assets/img/about/5.jpg" alt="Image Not Found" width={720} height={1000} />
+                                <Image data-aos="fade-up" src="/assets/img/about/6.jpg" alt="Image Not Found" width={720} height={1000} />
                                 <Image data-aos="fade-down" data-aos-delay="100" src="/assets/img/about/6.jpg" alt="Image Not Found" width={600} height={750} />
                                 <div className="certification" data-aos="fade-up" data-aos-delay="250">
                                     <Image src="/assets/img/icon/10.png" alt="Image Not Found" width={256} height={256} />
