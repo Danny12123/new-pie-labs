@@ -12,7 +12,7 @@ import BlogV1 from "@/components/blog/BlogV1";
 import LayoutV1 from "@/components/layouts/LayoutV1";
 
 export const metadata = {
-    title: "Tekni - IT Solutions & Services Template"
+    title: "Pie Labs"
 };
 
 const Home1Page = () => {
