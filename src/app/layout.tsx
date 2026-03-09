@@ -21,7 +21,32 @@ import Dependency from '@/components/utilities/Dependency';
 import ScrollUpBtn from '@/components/utilities/ScrollUpBtn';
 
 export const metadata: Metadata = {
-  title: "Tekni - IT Solutions & Services Next.Js Template"
+  title: "Pie Labs",
+  description:
+    "Professional engineering and software development services. Build innovative solutions that move businesses forward.",
+  keywords: "software development, engineering, technology, consulting, services, Embedded Solutions, Technology Adoption & Engineering Consulting",
+  generator: "Pie_labs",
+  // metadataBase: new URL("https://www.habitatscraft.com"),
+  alternates: {
+    canonical: "/"
+  },
+  icons: {
+    icon: [
+      {
+        url: "/logo.png",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/logo.png",
+        media: "(prefers-color-scheme: dark)",
+      },
+      {
+        url: "/logo.png",
+        type: "image/svg+xml",
+      },
+    ],
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

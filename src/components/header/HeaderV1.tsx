@@ -25,14 +25,14 @@ const HeaderV1 = () => {
                                         <i className="fa fa-bars" />
                                     </button>
                                     <Link className="navbar-brand" href="/">
-                                        <Image src="/assets/img/logo/logo.png" className="logo" alt="Logo" width={545} height={185} />
+                                        <Image src="/assets/logo.png" className="logo" alt="Logo" width={545} height={195} />
                                     </Link>
                                 </div>
                             </div>
 
                             <div className="col-xl-6 offset-xl-1 col-lg-6 col-md-4 col-sm-4 col-4">
                                 <div className={`collapse navbar-collapse collapse-mobile ${isOpens ? "show" : ""}`} id="navbar-menu">
-                                    <Image src="/assets/img/logo.png" alt="Logo" width={545} height={185} />
+                                    <Image src="/assets/logo.png" alt="Logo" width={545} height={195} />
 
                                     <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                                         <i className="fa fa-times" />
