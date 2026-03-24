@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description:
     "Professional engineering and software development services. Build innovative solutions that move businesses forward.",
   keywords: "software development, engineering, technology, consulting, services, Embedded Solutions, Technology Adoption & Engineering Consulting",
-  generator: "Pie_labs",
+  generator: "Pie labs",
   // metadataBase: new URL("https://www.habitatscraft.com"),
   alternates: {
     canonical: "/"
