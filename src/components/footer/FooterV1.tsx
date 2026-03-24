@@ -20,7 +20,7 @@ const FooterV1 = () => {
                         <div className="row">
                             <div className="col-lg-4 col-md-6 footer-item pr-50 pr-xs-15">
                                 <div className="f-item about">
-                                    <Image className="logo" src="/assets/img/logo-light-solid.png" alt="Logo" width={545} height={185} />
+                                    <Image className="logo" src="/assets/img/logo/logo.png" alt="Logo" width={545} height={185} />
                                     <p>
                                         Excellence decisively nay man twins impression maximum contrasted remarkably is perfect.
                                     </p>
@@ -68,20 +68,18 @@ const FooterV1 = () => {
                                     <h4 className="widget-title">Our Services</h4>
                                     <ul>
                                         <li>
-                                            <Link href="/services-details/1">IT Management</Link>
+                                            <Link href="#services">Engineering Enablement & Training</Link>
                                         </li>
                                         {/* <li>
                                             <Link href="/services-details/2">Cyber Security</Link>
                                         </li> */}
                                         <li>
-                                            <Link href="/services-details/3">Cloud Computing</Link>
+                                            <Link href="#services">AI & RAG Solutions</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/4">IT Consulting</Link>
+                                            <Link href="#services">Embedded Systems & IoT Development</Link>
                                         </li>
-                                        <li>
-                                            <Link href="/services-details/5">Backup & Recovery</Link>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -93,9 +91,9 @@ const FooterV1 = () => {
                                 <div className="f-item newsletter">
                                     <NewsLetterForm />
                                 </div>
-                                <ul className="footer-social">
+                                {/* <ul className="footer-social">
                                     <SocialShareV1 />
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                     </div>
@@ -106,7 +104,7 @@ const FooterV1 = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
-                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved by <Link href="https://themeforest.net/user/validthemes" target="_blank">validthemes</Link></p>
+                                <p>&copy; Copyright {(new Date().getFullYear())}. All Rights Reserved </p>
                             </div>
                             <div className="col-lg-6 text-end">
                                 <ul>

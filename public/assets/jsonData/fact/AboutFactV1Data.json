@@ -2,15 +2,15 @@
     {
         "id": 1,
         "icon": "flaticon-license",
-        "count": 36,
+        "count": 15,
         "operator": "+",
         "label": "Years of experience"
     },
     {
         "id": 2,
         "icon": "flaticon-global",
-        "count": 120,
-        "operator": "K",
+        "count": 5,
+        "operator": "",
         "label": "Worldwide Clients"
     }
 ]

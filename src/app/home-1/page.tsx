@@ -24,12 +24,12 @@ const Home1Page = () => {
                 <ServiceV1 />
                 <ProcessV1 />
                 <WhyChooseV1 />
-                <PartnerV1 sectionClass="default-padding" />
+                {/* <PartnerV1 sectionClass="default-padding" /> */}
                 <TeamV1 hasBg={true} hasTitle={true} />
                 <ProjectV1 />
                 <CtaV1 />
-                <TestimonialV1 />
-                <BlogV1 hasBg={true} sectionClass="bg-gray" />
+                {/* <TestimonialV1 /> */}
+                {/* <BlogV1 hasBg={true} sectionClass="bg-gray" /> */}
             </LayoutV1>
         </>
     );

@@ -23,21 +23,24 @@ const WhyChooseV1 = () => {
                                         threshold={0.2}
                                         rootMargin="-50px"
                                     >
-                                        Be at the forefront of new innovation
+                                        Why Choose Pielabs
                                     </SplitText>
                                 </h2>
                                 <ul className="list-item">
                                     <li data-aos="fade-up">
-                                        <h4>Best Business Consulting </h4>
-                                        <p>
-                                            Seeing rather her you not esteem men settle genius excuse. International Deal say over you age from. Comparison new ham melancholy son themselves.
-                                        </p>
+                                        <h4>Senior engineers with real-world experience</h4>
+                                    </li>
+                                    <li data-aos="fade-up" data-aos-delay="150">
+                                        <h4>Deep expertise across software, AI, and hardware</h4>
                                     </li>
                                     <li data-aos="fade-up" data-aos-delay="300">
-                                        <h4>24/7 Customer Support </h4>
-                                        <p>
-                                            Together rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son.
-                                        </p>
+                                        <h4>Focus on production-ready systems—not prototypes</h4>
+                                    </li>
+                                    <li data-aos="fade-up" data-aos-delay="450">
+                                        <h4>Practical, no-nonsense approach</h4>
+                                    </li>
+                                    <li data-aos="fade-up" data-aos-delay="600">
+                                        <h4>Ability to both train and execute</h4>
                                     </li>
                                 </ul>
                             </div>

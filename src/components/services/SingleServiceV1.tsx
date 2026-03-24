@@ -23,11 +23,11 @@ const SingleServiceV1 = ({ service }: { service: DataType }) => {
                     <p>
                         {description}
                     </p>
-                    <Link href={`/services-details/${id}`} className="round-btn">
+                    {/* <Link href={`/services-details/${id}`} className="round-btn">
                         <svg width={20} height={18} viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 17L17 1H7.8" stroke="white" strokeWidth={2} />
                         </svg>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </>

@@ -2,15 +2,22 @@
     {
         "id": 1,
         "thumb": "/assets/img/projects/cloud-computing.jpg",
-        "category": "Cloud Migration",
-        "title": "Future of cloud computing",
-        "description": "Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son."
+        "category": "Infrastructure",
+        "title": "Kubernetes Migration & Automation",
+        "description": "Reduced deployment time by 70% by implementing Kubernetes-based infrastructure."
     },
     {
         "id": 2,
         "thumb": "/assets/img/projects/ai.jpg",
         "category": "Artificial Intelligence",
-        "title": "AI & Automation Solutions",
-        "description": "Excellence projecting is devonshire dispatched remarkably on estimating. Side in so life past. Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son."
+        "title": "AI RAG System Implementation",
+        "description": "Built a RAG system that improved internal knowledge retrieval accuracy by 3x."
+    },
+    {
+        "id": 3,
+        "thumb": "/assets/img/projects/3.jpg",
+        "category": "IoT",
+        "title": "IoT Prototype to Production",
+        "description": "Delivered an IoT device from prototype to production in under 6 months."
     }
 ]

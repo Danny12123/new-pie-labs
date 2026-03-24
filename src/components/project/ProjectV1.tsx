@@ -14,9 +14,9 @@ const ProjectV1 = () => {
                         <div className="row">
                             <div className="col-xl-5 col-lg-7">
                                 <div className="content-left">
-                                    <h5 className="sub-title">Popular Projects</h5>
+                                    <h5 className="sub-title">Case Studies</h5>
                                     <h2 className="title split-text">
-                                        <SplitText
+                                        {/* <SplitText
                                             delay={10}
                                             animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
                                             animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
@@ -24,8 +24,8 @@ const ProjectV1 = () => {
                                             threshold={0.2}
                                             rootMargin="-50px"
                                         >
-                                            Our most recent Completed Projects
-                                        </SplitText>
+                                            (Replace with real examples as soon as possible)
+                                        </SplitText> */}
                                     </h2>
                                 </div>
                             </div>

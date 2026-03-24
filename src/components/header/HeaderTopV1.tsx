@@ -16,13 +16,13 @@ const HeaderTopV1 = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-xl-3 col-lg-4 text-end">
+                        {/* <div className="col-xl-3 col-lg-4 text-end">
                             <div className="social">
                                 <ul>
                                     <SocialShareV1 />
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

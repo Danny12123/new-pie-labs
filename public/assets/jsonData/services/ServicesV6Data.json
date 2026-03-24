@@ -2,37 +2,46 @@
     {
         "id": 1,
         "icon": "44.png",
-        "title": "Software Development & Customization",
-        "description": "Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know.",
+        "title": "Engineering Enablement & Training",
+        "description": "Modern engineering requires more than just coding—it demands the right tools, architecture, and operational discipline.",
+        "description2": "We train your in-house team to adopt and effectively use modern technologies, including: - Programming: Python, Golang, Rust - AI Systems: LLMs, RAG architectures - DevOps: Docker, Kubernetes - Observability: Prometheus, Grafana, Graylog",
+        "description3": "What we offer: - Hands-on workshops - Long-term coaching and mentorship - Architecture reviews - Production-readiness guidance",
+        "description4": "When needed, we augment your team with senior engineers to accelerate adoption and ensure successful delivery.",
         "list": [
             "Software Design",
             "Consultancy",
-            "Management",
-            "Bakcup & Recovery"
+            "Training",
+            "Team Upskilling"
         ]
     },
     {
         "id": 2,
         "icon": "45.png",
-        "title": "Professional Cyber Security Services",
-        "description": "Offers upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know.",
+        "title": "AI & RAG Solutions",
+        "description": "We help businesses move beyond AI experimentation to real, production-ready systems.",
+        "description2": "Our focus is on building Retrieval-Augmented Generation (RAG) solutions that provide reliable, authoritative answers based on your internal data.",
+        "description3": "End-to-end delivery includes: - Use case discovery and feasibility analysis - Data ingestion and pipeline design - RAG architecture design - LLM integration and evaluation - Deployment and scaling - Monitoring and continuous improvement",
+        "description4": "The result: AI systems your users can trust.",
         "list": [
-            "Security Maintain",
-            "Cyber Attack",
-            "Management",
-            "Bakcup & Recovery"
+            "RAG Solutions",
+            "Data Piplines",
+            "LLM Integration",
+            "AI Strategies"
         ]
     },
     {
         "id": 3,
         "icon": "46.png",
-        "title": "Data Analytics & IT Consulting Services",
-        "description": "Regular upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know.",
+        "title": "Embedded Systems & IoT Development",
+        "description": "We help businesses move from early concepts to fully realized, production-ready hardware products. Our focus is on building reliable, scalable embedded and IoT systems while guiding the right technical decisions at every stage—from architecture to manufacturing.",
+        "description2": "We take end-to-end ownership of the development process, ensuring that both hardware and firmware are designed for real-world performance, long-term maintainability, and compliance with global standards.",
+        "description3": "End-to-end delivery includes: use case definition and system architecture design, component selection and hardware trade-off analysis, PCB design, layout and hardware prototyping, embedded firmware development and optimization, connectivity implementation (BLE, WiFi, LoRa, cellular, etc.), cloud and backend integration for device management and data flow, testing, validation and production readiness, manufacturing support and guidance toward ISO-compliant processes.",
+        "description4": "The result: robust, production-ready devices built to scale and operate reliably in the real world.",
         "list": [
-            "Artificial Intelligence",
-            "Human AI",
-            "Management",
-            "Design Recovery"
+            "Hardware Design",
+            "Firmware Development",
+            "IoT Connectivity",
+            "Manufacturing Support"
         ]
     }
 ]

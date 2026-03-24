@@ -7149,6 +7149,12 @@ ul.tech-index-items li a:hover svg {
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 20px;
+	aspect-ratio: 3 / 4;
+}
+
+.team-style-one .thumb img {
+	height: 100% !important;
+	object-fit: cover !important;
 }
 
 .team-style-one .thumb .social {

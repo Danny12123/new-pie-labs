@@ -16,8 +16,8 @@ const SingleTeamV1 = ({ team }: { team: DataType }) => {
     return (
         <>
             <div className={`team-style-one ${activeClass}`} data-aos="fade-up" data-aos-delay={delay}>
-                <div className="thumb">
-                    <Image src={`/assets/img/team/${thumb}`} alt="Image Not Found" width={800} height={900} />
+                <div className="thumb w-full aspect-[3/4] overflow-hidden">
+                    <Image src={thumb} alt="Image Not Found" width={500} height={500} className="w-full h-full object-cover" />
                     <div className="social">
                         <ul>
                             <li className="facebook">
@@ -40,7 +40,8 @@ const SingleTeamV1 = ({ team }: { team: DataType }) => {
                 </div>
                 <div className="info">
                     <span>{designation}</span>
-                    <h4><Link href="/team-details/1">{name}</Link></h4>
+                    <h4>{name}</h4>
+                    {/* <h4><Link href="/team-details/1">{name}</Link></h4> */}
                 </div>
             </div>
         </>

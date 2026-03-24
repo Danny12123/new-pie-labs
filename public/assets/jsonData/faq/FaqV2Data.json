@@ -3,24 +3,24 @@
         "id": 1,
         "headingId": "headingOne",
         "collapseId": "collapseOne",
-        "title": "Security System",
-        "description": "Bennings appetite disposed me subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause.",
+        "title": "Engineering Enablement",
+        "description": "Upskill your team and implement a modern, production-ready engineering stack, including Golang, Rust, and Python, alongside cloud-native infrastructure, CI/CD, microservices, and observability with Docker, Kubernetes, Prometheus, Grafana, and Graylog.",
         "show": true
     },
     {
         "id": 2,
         "headingId": "headingTwo",
         "collapseId": "collapseTwo",
-        "title": "Risk Management",
-        "description": "Cennings appetite disposed me subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause.",
+        "title": "AI & RAG Solutions",
+        "description": "Build AI systems that deliver accurate, context-aware answers using your data, with Retrieval-Augmented Generation (RAG), vector databases, structured data pipelines, and secure LLM integrations deployed in scalable, production environments.",
         "show": false
     },
     {
         "id": 3,
         "headingId": "headingThree",
         "collapseId": "collapseThree",
-        "title": "Cloud Migration",
-        "description": "Tennings appetite disposed me subjects an. To no indulgence diminution so discovered mr apartments. Are off under folly death wrote cause.",
+        "title": "Embedded & IoT Development",
+        "description": "Design and deliver production-ready hardware + firmware systems, covering system architecture, component selection, PCB design, embedded software, and manufacturing—while ensuring every decision aligns with performance goals and meets global ISO compliance standards.",
         "show": false
     }
 ]

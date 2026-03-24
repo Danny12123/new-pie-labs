@@ -15,7 +15,7 @@ const Service4Page = () => {
     return (
         <>
             <LayoutV1>
-                <BreadCrumb title="Our Services" breadCrumb="services-2" />
+                <BreadCrumb title="Our Services" breadCrumb="" />
                 <ServiceV6 sectionClass="default-padding-top" />
                 <ProcessV2 />
                 {/* <PriceV2 hasTitle={true} /> */}

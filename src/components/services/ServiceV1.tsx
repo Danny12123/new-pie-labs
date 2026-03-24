@@ -6,7 +6,7 @@ import SplitText from "../animation/SplitText.jsx"
 const ServiceV1 = () => {
     return (
         <>
-            <div className="services-style-one-area default-padding bg-gray bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/banner.jpg)' }}>
+            <div id="services" className="services-style-one-area default-padding bg-gray bg-cover" style={{ backgroundImage: 'url(/assets/img/shape/banner.jpg)' }}>
                 <div className="center-shape" style={{ backgroundImage: 'url(/assets/img/shape/5.png)' }} />
                 <div className="service-style-one-items">
                     <div className="container">
@@ -27,7 +27,7 @@ const ServiceV1 = () => {
                                     </SplitText>
 
                                 </h2>
-                                <Link className="btn btn-theme btn-md radius animation" data-aos="fade-up" href="/services">View all services</Link>
+                                {/* <Link className="btn btn-theme btn-md radius animation" data-aos="fade-up" href="/services">View all services</Link> */}
                             </div>
                             {ServicesV1Data.slice(0, 1).map(service =>
                                 <SingleServiceV1 service={service} key={service.id} />

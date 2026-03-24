@@ -41,12 +41,16 @@ const AboutV1 = () => {
                                     threshold={0.2}
                                     rootMargin="-50px"
                                 >
-                                    Discover Innovative Solutions & Technology
+                                    Partnering to Build What Matters
                                 </SplitText>
                             </h2>
                             <div data-aos="fade-up" data-aos-delay="200">
                                 <p>
-                                    Work to understand your issues and are driven to ask better questions in the pursuit of making work. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an.
+                                    Pielabs is an engineering-first company focused on building real, production-grade systems. We work with
+                                    ambitious teams to modernize their technology stack, implement practical AI solutions, and develop
+                                    hardware products that scale.
+                                    Our approach is simple: no hype, no unnecessary complexity—just robust systems designed to perform in
+                                    the real world.
                                 </p>
                                 <div className="accordion mt-30" id="faqAccordion">
                                     {FaqV2Data.map(faq =>

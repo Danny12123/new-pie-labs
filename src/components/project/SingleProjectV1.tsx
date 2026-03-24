@@ -27,10 +27,10 @@ const SingleProjectV1 = ({ project }: { project: DataType }) => {
                             <span>{category}</span>
                             <h2><Link href={`/project-details/${id}`}>{title}</Link></h2>
                             <p> {description}</p>
-                            <Link className="btn-animation dark mt-10" href={`/project-details/${id}`}>
+                            {/* <Link className="btn-animation dark mt-10" href={`/project-details/${id}`}>
                                 <i className="fas fa-arrow-right" />
                                 <span>View Project</span>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>

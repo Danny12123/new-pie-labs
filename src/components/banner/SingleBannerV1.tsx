@@ -6,22 +6,24 @@ interface DataType {
     bgImage: string;
     subTitle: string;
     title: string;
+    title2: string;
     buttonText: string;
     shapeImage: string;
 }
 
 const SingleBannerV1 = ({ banner }: { banner: DataType }) => {
-    const { bgImage, subTitle, title, buttonText } = banner;
+    const { bgImage, subTitle, title, title2, buttonText } = banner;
 
     return (
         <>
-            <div className="banner-thumb bg-cover shadow theme" style={{ background: `url(/assets/img/banner/${bgImage})` }} />
+            <div className="banner-thumb bg-cover shadow theme" style={{ background: `linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/banner/${bgImage})`, backgroundSize: "cover", backgroundPosition: "center" }} />
             <div className="container">
                 <div className="row align-center">
                     <div className="col-xl-8 offset-xl-4">
                         <div className="content">
-                            <h4>{subTitle}</h4>
-                            <h2>{title}</h2>
+                            <h2>{subTitle}</h2>
+                            <h5>{title}</h5>
+                            <h5>{title2}</h5>
                             <div className="button mt-40">
                                 <Link className="btn btn-theme btn-md radius animation" href="/about-us">{buttonText}</Link>
                             </div>

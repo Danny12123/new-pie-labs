@@ -31,12 +31,20 @@ const MainMenu = ({ navbarPlacement }: DataType) => {
                         href="/about-us"
                         className="dropdown-toggle"
                     >
-                        Pages
+                        About us
                     </Link>
-                    
-                </li>
 
-                <li className={`dropdown ${isMenuOpen('services') ? 'on' : ''}`}>
+                </li>
+                <li>
+                    <Link
+                        href="#services"
+                        className="dropdown-toggle"
+                    >
+                        Services
+                    </Link>
+
+                </li>
+                {/* <li className={`dropdown ${isMenuOpen('services') ? 'on' : ''}`}>
                     <Link
                         href="#"
                         className="dropdown-toggle"
@@ -56,7 +64,7 @@ const MainMenu = ({ navbarPlacement }: DataType) => {
                         <li><Link href="/services">Services Version Four</Link></li>
                         <li><Link href="/services-details/1">Services Details</Link></li>
                     </ul>
-                </li>
+                </li> */}
 
                 {/* <li className={`dropdown ${isMenuOpen('blog') ? 'on' : ''}`}>
 

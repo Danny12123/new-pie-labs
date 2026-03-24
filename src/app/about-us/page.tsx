@@ -17,9 +17,9 @@ const AboutUsPage = () => {
                 <BreadCrumb title="About Us" breadCrumb="about-us" />
                 <AboutV1 />
                 <ProcessV1 sectionClass="bg-gray bg-cover" />
-                <PartnerV1 sectionClass="default-padding" />
+                {/* <PartnerV1 sectionClass="default-padding" /> */}
                 <TeamV1 hasBg={true} hasTitle={true} />
-                <TestimonialV1 />
+                {/* <TestimonialV1 /> */}
             </LayoutV1>
         </>
     );

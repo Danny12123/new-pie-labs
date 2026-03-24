@@ -2,29 +2,22 @@
     {
         "id": 1,
         "icon": "1.png",
-        "title": "IT Design",
-        "description": "Pianoforte solicitude so decisively mention diminution the particular. Real fond attachment her partiality.",
+        "title": "Engineering Enablement & Training",
+        "description": "Modern engineering requires more than just coding—it demands the right tools, architecture, and operational discipline. We train your in-house team to adopt and effectively use modern technologies, including: - Programming: Python, Golang, Rust - AI Systems: LLMs, RAG architectures - DevOps: Docker, Kubernetes - Observability: Prometheus, Grafana and Graylog",
         "delay": 0
     },
     {
         "id": 2,
         "icon": "2.png",
-        "title": "Analytic Solutions",
-        "description": "Technical solicitude so decisively mention diminution the particular. Real fond attachment her partiality.",
+        "title": "AI & RAG Solutions",
+        "description": "We help businesses move beyond AI experimentation to real, production-ready systems. Our focus is on building Retrieval-Augmented Generation (RAG) solutions that provide reliable, authoritative answers based on your internal data.",
         "delay": 100
     },
     {
         "id": 3,
         "icon": "3.png",
-        "title": "Risk Management",
-        "description": "International solicitude so decisively mention diminution the particular. Real fond attachment her partiality.",
+        "title": "Embedded Systems & IoT Development",
+        "description": "We help businesses move from early concepts to fully realized, production-ready hardware products. Our focus is on building reliable, scalable embedded and IoT systems while guiding the right technical decisions at every stage—from architecture to manufacturing.",
         "delay": 200
-    },
-    {
-        "id": 4,
-        "icon": "4.png",
-        "title": "Firewall Advance",
-        "description": "Directions solicitude so decisively mention diminution the particular. Real fond attachment her partiality.",
-        "delay": 300
     }
 ]

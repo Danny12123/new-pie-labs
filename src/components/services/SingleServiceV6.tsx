@@ -6,11 +6,14 @@ interface DataType {
     icon: string;
     title: string;
     description: string;
+    description2: string;
+    description3: string;
+    description4: string;
     list: string[];
 }
 
 const SingleServiceV6 = ({ service }: { service: DataType }) => {
-    const { id, icon, title, description, list } = service;
+    const { id, icon, title, description, description2, description3, description4, list } = service;
 
     return (
         <div className="item">
@@ -28,6 +31,9 @@ const SingleServiceV6 = ({ service }: { service: DataType }) => {
                 </Link>
             </h4>
             <p>{description}</p>
+            <p>{description2}</p>
+            <p>{description3}</p>
+            <p>{description4}</p>
             <ul>
                 {list.map((li, index) => (
                     <li key={index}>{li}</li>
